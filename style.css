@@ -1,0 +1,138 @@
+*{
+	margin:0;
+    padding: 0;
+    font-family: Times New Roman; 
+}
+.resume1{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(to right, #00ff00, #000080);
+}
+ nav{
+ 	width: 80%;
+ 	position: sticky;
+ 	margin: 20px auto;
+ 	z-index: 1;
+ 	display: flex;
+ 	align-items: center;
+ }
+ .logo{
+ 	flex-basis: 60px;
+ }
+ . logo img {
+ 	width: 150px;
+ }
+ .nav-links{
+    margin-top: 20px;
+ 	flex: 1;
+ 	text-align: right;
+    color: #fff;
+    color-rendering: #fff;
+    color-profile: #fff;
+ }
+ 
+
+  .information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    transform: translateY(-50%);
+
+  }
+  #circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    border-radius: 950px;
+    background: transparent;
+    transform: rotate(0deg);
+    transition: 1s;
+  }
+  .feature img{
+    width: 120px;
+  }
+  .feature{
+    position: absolute;
+    display: flex;
+    color: 00ced1 ;
+  }
+  .feature div{
+    margin-left: 30px;
+  }
+  .feature div p{
+    margin-top: 8px;
+  }
+
+
+  .one{
+     top: 380px;
+    left: 620px;
+    transform: rotate(0deg);
+  }
+  .two{
+    top: 170px;
+    left: 270px;
+    transform: rotate(-90deg);
+
+
+  }
+  .three{
+    top: 500px;
+    left: 90px;
+    transform: rotate(-180deg);
+  }
+  .four{
+    top: 660px;
+    left: 420px;
+    transform: rotate(-270deg);
+  }
+  .me{
+    moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 350px;
+    position: absolute;
+    top: 840px;
+    left: 340px;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+   .controls{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    transform: translateY(-50%);
+    text-align: center;
+   }
+    .controls h3{
+     margin-top: 50px;
+     margin-left: 800px;
+     color: #fff;
+   }
+     #upBtn{
+        width: 50px;
+        cursor: pointer;
+        margin-left: 1300px;
+        margin-top: 200px;
+        rotate: 180deg;
+     }
+
+  .overlay{
+    width: 0;
+    height: 0;
+    border-top: 450px solid #00ced1;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #00ced1;
+    border-left: 550px solid #00ced1;
+    position: absolute;
+    left: 0;
+    top: 400;
+
+  }
+
